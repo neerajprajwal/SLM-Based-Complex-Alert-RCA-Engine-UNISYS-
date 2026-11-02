@@ -1,3 +1,4 @@
+
 # SLM-Based Suggestion Engine for Complex Alerts
 
 An AI/ML-assisted system for analyzing Windows Event Viewer alerts, identifying probable root causes, and suggesting appropriate remediation actions.
@@ -42,28 +43,28 @@ The system is designed to assist incident investigation and remediation. Suggest
 
 ## Technology Stack
 
-| Area | Technologies |
-|---|---|
-| Programming | Python |
-| Alert collection and remediation | PowerShell |
-| Machine learning | Scikit-learn, Random Forest |
-| Text processing | TF-IDF |
-| Small language model | Phi-3 Mini |
-| Local model runtime | Ollama |
-| Backend and dashboard | Flask |
-| Data exchange | JSON |
+| Area                             | Technologies                |
+| -------------------------------- | --------------------------- |
+| Programming                      | Python                      |
+| Alert collection and remediation | PowerShell                  |
+| Machine learning                 | Scikit-learn, Random Forest |
+| Text processing                  | TF-IDF                      |
+| Small language model             | Phi-3 Mini                  |
+| Local model runtime              | Ollama                      |
+| Backend and dashboard            | Flask                       |
+| Data exchange                    | JSON                        |
 
 ## Main Components
 
-| Component | Responsibility |
-|---|---|
-| Alert Collection | Collects Windows Event Viewer alerts and maintains an incremental collection checkpoint. |
-| Alert Classification | Classifies incoming alerts into simple and complex categories. |
-| Incident Correlation | Groups related alerts using event attributes and a time-based window. |
-| RCA Engine | Analyzes complex incidents and generates probable root-cause explanations. |
-| Confidence Scoring | Computes an explainable score from five heuristic factors. |
-| Action Executor | Connects incidents to predefined PowerShell remediation scripts and manages approval and execution tracking. |
-| Dashboard | Displays incidents, RCA findings, suggested actions, statuses, and execution history. |
+| Component            | Responsibility                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Alert Collection     | Collects Windows Event Viewer alerts and maintains an incremental collection checkpoint.                     |
+| Alert Classification | Classifies incoming alerts into simple and complex categories.                                               |
+| Incident Correlation | Groups related alerts using event attributes and a time-based window.                                        |
+| RCA Engine           | Analyzes complex incidents and generates probable root-cause explanations.                                   |
+| Confidence Scoring   | Computes an explainable score from five heuristic factors.                                                   |
+| Action Executor      | Connects incidents to predefined PowerShell remediation scripts and manages approval and execution tracking. |
+| Dashboard            | Displays incidents, RCA findings, suggested actions, statuses, and execution history.                        |
 
 ## Human-in-the-Loop Execution
 
@@ -132,3 +133,16 @@ Thank you to the project mentors from BMSIT and Unisys for their guidance and fe
 ---
 
 *This README describes the system at a high level. Update the setup instructions, repository structure, and component details to reflect the exact files and functionality included in the published repository.*
+===============================================================================================================================================================================================================
+
+# SLM-Based-Complex-Alert-RCA-Engine-UNISYS-
+
+An AI/ML-powered system for Windows Event Viewer alert classification, incident correlation, root cause analysis, confidence scoring, and human-approved automated remediation using SLMs.
+
+>>>>>>> 33bf6caa431399296ccf0db2f3bbc4194b34f588
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
