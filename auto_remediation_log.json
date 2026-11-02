@@ -1,0 +1,282 @@
+[
+    {
+        "timestamp": "2026-07-13 17:13:13",
+        "incident_id": "INC-2013-2026-07-13T17:13:02.3354582+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-13 17:21:16",
+        "incident_id": "INC-2013-2026-07-13T17:21:04.8218340+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "In Progress"
+    },
+    {
+        "timestamp": "2026-07-13 17:36:11",
+        "incident_id": "INC-2013-2026-07-13T17:35:58.6933217+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-13 18:02:35",
+        "incident_id": "INC-2013-2026-07-13T18:02:26.9854355+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-13 18:20:19",
+        "incident_id": "INC-2013-2026-07-13T18:20:05.5729560+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-14 19:23:23",
+        "incident_id": "INC-2013-2026-07-14T19:22:45.1405404+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-14 22:21:49",
+        "incident_id": "INC-2013-2026-07-14T22:20:40.2650646+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 14:13:08",
+        "incident_id": "INC-2013-2026-07-15T14:12:01.5279858+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 15:03:41",
+        "incident_id": "INC-2013-2026-07-15T14:59:16.8526926+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 15:37:41",
+        "incident_id": "INC-2013-2026-07-15T15:37:28.5495195+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 15:38:05",
+        "incident_id": "INC-2013-2026-07-15T15:37:55.6785655+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 15:39:37",
+        "incident_id": "INC-2013-2026-07-15T15:39:27.1122133+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 15:58:44",
+        "incident_id": "INC-2013-2026-07-15T15:58:13.9710219+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 17:10:30",
+        "incident_id": "INC-2013-2026-07-15T17:10:13.6276831+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 17:17:02",
+        "incident_id": "INC-2013-2026-07-15T17:16:51.4216212+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 17:50:22",
+        "incident_id": "INC-2013-2026-07-15T17:50:09.8489950+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 17:52:05",
+        "incident_id": "INC-2013-2026-07-15T17:51:53.8077561+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Failed"
+    },
+    {
+        "timestamp": "2026-07-15 18:39:57",
+        "incident_id": "INC-2013-2026-07-15T18:39:44.4671382+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:28:10",
+        "incident_id": "INC-2013-2026-07-15T19:27:52.1544017+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:28:12",
+        "incident_id": "INC-2013-2026-07-15T19:27:52.1544017+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:28:14",
+        "incident_id": "INC-2013-2026-07-15T19:27:52.1544017+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:31:29",
+        "incident_id": "INC-2013-2026-07-15T19:31:15.3775788+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:31:30",
+        "incident_id": "INC-2013-2026-07-15T19:31:15.3775788+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:31:32",
+        "incident_id": "INC-2013-2026-07-15T19:31:15.3775788+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:31:34",
+        "incident_id": "INC-2013-2026-07-15T19:31:15.3775788+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-15 19:31:36",
+        "incident_id": "INC-2013-2026-07-15T19:31:15.3775788+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-20 17:36:56",
+        "incident_id": "INC-2013-2026-07-20T17:36:46.2209211+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-20 17:37:14",
+        "incident_id": "INC-2013-2026-07-20T17:37:02.6358998+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-22 12:07:35",
+        "incident_id": "INC-513-2026-07-22T12:07:20.7705809+05:30",
+        "event_id": 513,
+        "script": "Restart_WSearch_Service.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-22 12:07:36",
+        "incident_id": "INC-513-2026-07-22T12:07:20.7705809+05:30",
+        "event_id": 513,
+        "script": "Restart_WSearch_Service.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-25 15:49:11",
+        "incident_id": "INC-2013-2026-07-25T15:46:47.0759503+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-25 16:52:01",
+        "incident_id": "INC-513-2026-07-25T16:51:47.4702563+05:30",
+        "event_id": 513,
+        "script": "Restart_WSearch_Service.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-27 11:51:08",
+        "incident_id": "INC-2013-2026-07-27T11:50:57.7806452+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-27 11:54:04",
+        "incident_id": "INC-513-2026-07-27T11:53:56.1519864+05:30",
+        "event_id": 513,
+        "script": "Restart_WSearch_Service.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    },
+    {
+        "timestamp": "2026-07-27 19:31:39",
+        "incident_id": "INC-2013-2026-07-27T19:31:30.4690203+05:30",
+        "event_id": 2013,
+        "script": "Error2013_DiskCleanup.ps1",
+        "mode": "Automatic",
+        "result": "Success"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "cleanup_paths":  [
+                          "C:\\Users\\sandh\\AppData\\Local\\Temp",
+                          "C:\\Windows\\Temp",
+                          "C:\\CleanupTest",
+                          "Recycle Bin"
+                      ],
+    "execution_time_sec":  0.4,
+    "recovered_gb":  2,
+    "files_deleted":  40,
+    "folders_deleted":  8,
+    "status":  "SUCCESS",
+    "completed_at":  "2026-07-27 19:31:38"
+}

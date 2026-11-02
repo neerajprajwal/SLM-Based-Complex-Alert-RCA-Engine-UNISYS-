@@ -1,0 +1,13 @@
+{
+    "cleanup_paths":  [
+                          "C:\\Users\\neera\\AppData\\Local\\Temp",
+                          "C:\\Windows\\Temp",
+                          "Recycle Bin"
+                      ],
+    "execution_time_sec":  0.98,
+    "recovered_gb":  0,
+    "files_deleted":  101,
+    "folders_deleted":  35,
+    "status":  "SUCCESS",
+    "completed_at":  "2026-07-15 14:13:08"
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Auto Remediation History</title>
+
+    <link rel="stylesheet" href="history.css?v=20">
+
+</head>
+
+<body>
+
+<!-- =====================================================
+TOP NAVBAR
+===================================================== -->
+
+<header class="topbar">
+
+    <div class="brand">
+
+        <div class="logo">
+            <img src="images/unisys_logo.png" alt="Unisys Logo">
+        </div>
+
+        <div>
+
+            <div class="brand-title">
+
+                Unisys Operations
+
+            </div>
+
+            <div class="brand-subtitle">
+
+                Root Cause Analysis & Automated Action Executor
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- =====================================================
+PAGE
+===================================================== -->
+
+<div class="page">
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="page-header">
+
+        <h1>
+
+            Auto Remediation History
+
+        </h1>
+
+        <p>
+
+            Audit trail of automatically executed remediation actions
+
+        </p>
+
+    </div>
+
+    <!-- ================= SUMMARY CARDS ================= -->
+
+    <div class="summary-grid">
+
+        <div class="summary-card total">
+
+            <span>📄 Total Executed</span>
+
+            <h2 id="totalLogs">
+
+                0
+
+            </h2>
+
+            <small>
+
+                Automatic remediations
+
+            </small>
+
+        </div>
+
+        <div class="summary-card approved">
+
+            <span>✅ Successful</span>
+
+            <h2 id="successCount">
+
+                0
+
+            </h2>
+
+            <small>
+
+                Completed successfully
+
+            </small>
+
+        </div>
+
+        <div class="summary-card rejected">
+
+            <span>❌ Failed</span>
+
+            <h2 id="failureCount">
+
+                0
+
+            </h2>
+
+            <small>
+
+                Execution failures
+
+            </small>
+
+        </div>
+
+    </div>
+
+    <!-- ================= TABLE ================= -->
+
+    <div class="table-card">
+
+        <div class="table-header">
+
+            <h3>
+
+                Auto Remediation Log
+
+            </h3>
+
+            <div class="table-actions">
+
+                <button
+                    class="history-btn"
+                    onclick="window.location.href='index.html'">
+
+                    ← Back to Dashboard
+
+                </button>
+
+                <button
+                    class="refresh-btn"
+                    onclick="loadHistory()">
+
+                    Refresh
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+<tr>
+
+    <th id="timeHeader" class="sortable">
+
+        Time
+        <span class="timeSortIcon">▲▼</span>
+
+    </th>
+
+    <th>
+
+        Incident ID
+
+    </th>
+
+    <th id="eventHeader" class="sortable">
+
+    Event ID
+    <span class="eventSortIcon">▲▼</span>
+
+</th>
+    <th>
+
+        Script Executed
+
+    </th>
+
+    <th>
+
+        Execution Mode
+
+    </th>
+
+    <th>
+
+        <select id="statusFilter" class="filter-select">
+
+            <option value="all">
+
+                All Status
+
+            </option>
+
+            <option value="Success">
+
+                Success
+
+            </option>
+
+            <option value="Failed">
+
+                Failed
+
+            </option>
+
+            <option value="In Progress">
+
+                In Progress
+
+            </option>
+
+        </select>
+
+    </th>
+
+</tr>
+
+</thead>
+
+                <tbody id="historyTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="history.js?v=20"></script>
+
+</body>
+
+</html>

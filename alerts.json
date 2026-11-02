@@ -1,0 +1,9 @@
+﻿{
+    "timestamp":  "2026-07-27T19:31:30.4690203+05:30",
+    "event_id":  2013,
+    "source":  "Disk Cleanup",
+    "severity":  "Error",
+    "message":  "Disk space critically low. Automatic cleanup required.",
+    "host":  "LAPTOP-VLVVPTRO",
+    "user":  "SYSTEM"
+}

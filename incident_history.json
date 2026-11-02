@@ -1,0 +1,2336 @@
+[
+  {
+    "severity": "Error",
+    "original_message": "Disk space critically low. Automatic cleanup required.",
+    "incident_id": "INC-2013-2026-07-27T19:31:30.4690203+05:30",
+    "created_at": "2026-07-27T19:31:30.4690203+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Error2013_DiskCleanup.ps1",
+    "steps": "View Steps",
+    "status": "Auto Remediated",
+    "approved_time": "2026-07-27 19:31:39",
+    "suggested_actions": [
+      {
+        "action": "Clean temporary files and recover disk space"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Disk Cleanup",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 2013
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Disk Cleanup"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 2013,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Error",
+    "original_message": "Disk space critically low. Automatic cleanup required.",
+    "incident_id": "INC-2013-2026-07-27T19:24:08.2356615+05:30",
+    "created_at": "2026-07-27T19:24:08.2356615+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Error2013_DiskCleanup.ps1",
+    "steps": "View Steps",
+    "status": "Approved",
+    "approved_time": "2026-07-27 19:24:36",
+    "suggested_actions": [
+      {
+        "action": "Clean temporary files and recover disk space"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Disk Cleanup",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 2013
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Disk Cleanup"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 2013,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Error",
+    "original_message": "Service Failure: Windows Search service stopped unexpectedly.",
+    "incident_id": "INC-513-2026-07-27T19:21:41.0981209+05:30",
+    "created_at": "2026-07-27T19:21:41.0981209+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Restart_WSearch_Service.ps1",
+    "steps": "View Steps",
+    "status": "Approved",
+    "approved_time": "2026-07-27 19:22:24",
+    "suggested_actions": [
+      {
+        "action": "Restart Windows Search Service"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "MCP Firmware",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 513
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "MCP Firmware"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 513,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Error",
+    "original_message": "Disk space critically low. Automatic cleanup required.",
+    "incident_id": "INC-2013-2026-07-27T18:54:40.3376965+05:30",
+    "created_at": "2026-07-27T18:54:40.3376965+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Error2013_DiskCleanup.ps1",
+    "steps": "View Steps",
+    "status": "Approved",
+    "approved_time": "2026-07-27 19:24:36",
+    "suggested_actions": [
+      {
+        "action": "Clean temporary files and recover disk space"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Disk Cleanup",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 2013
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Disk Cleanup"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 2013,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Error",
+    "original_message": "Service Failure: Windows Search service stopped unexpectedly.",
+    "incident_id": "INC-513-2026-07-27T18:52:13.7048094+05:30",
+    "created_at": "2026-07-27T18:52:13.7048094+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Restart_WSearch_Service.ps1",
+    "steps": "View Steps",
+    "status": "Approved",
+    "approved_time": "2026-07-27 19:22:24",
+    "suggested_actions": [
+      {
+        "action": "Restart Windows Search Service"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "MCP Firmware",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 513
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "MCP Firmware"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 513,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The filter host process 29060 did not respond and is being forcibly terminated. \n",
+    "incident_id": "INC-10024-2026-07-27T18:51:39.2705818+05:30",
+    "created_at": "2026-07-27T18:51:39.2705818+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Stop and then start the affected service",
+        "risk": "Minimal risk of data loss, assuming no critical tasks are scheduled during this time. However, if such a task is running when stopped, it might result in temporary unavailability or delay.",
+        "reason": "Resets the state of the system to ensure that services start correctly and reduces possibility for further issues due to miscommunication between applications."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-Search",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10024
+    },
+    "confidence_score": 0.62,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-Search"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10024,
+        "count": 3,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "This Event ID indicates that a scheduled task, which likely interacts with the network or system services on Windows hosts (as it involves 'filter host process'), failed to execute due to non-responsiveness."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{8BC3F05E-D86B-11D0-A075-00C04FB68820}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-2034283098-2252572593-1072577386-2659511007-3245387615-27016815-3920691934). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T18:51:33.0208694+05:30",
+    "created_at": "2026-07-27T18:51:33.0208694+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Use Component Services to grant Local Activation permission for the COM Server application.",
+        "risk": "The security of applications may be compromised due to insufficient permissions, and legitimate usage could result in errors or malfunctioning services. Failure to act promptly can disrupt business operations relying on these components.",
+        "reason": "Grant the necessary Local Activation permission for the COM Server application using Component Services administrative tool to resolve security issues."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.63,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 4,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "Local Activation Permission Warning: The user 'LAPTOP-VLVVPTRO\\sandh' does not have Local Activation permissions for a COM Server application, identified by CLSID {00000000-0000-0000-0000-000000000000} and APPID {8BC3F05E-D86B-11D0-A075-00C04FB68820}."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{8BC3F05E-D86B-11D0-A075-00C04FB68820}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-4140866221-2089788273-587126244-200641177-975881635-351011511-2350170769). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T18:25:14.6309367+05:30",
+    "created_at": "2026-07-27T18:25:14.6309367+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Open Component Services administrative console",
+        "risk": "Inability to activate COM Server application locally without proper permissions, potentially causing functionality issues for user sandh.",
+        "reason": "Permissions modification required as indicated by Security Warning."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.55,
+    "confidence_level": "Low",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 2,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event ID: 10016 indicates a warning where Local Activation permissions for an application with specific CLSID and APPID were not granted to user 'sandh' from address 'LocalHost'. This permission can be altered using the Component Services tool."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: 5541101a-66e2-4655-927d-0968cce53000 Correlation ID: 806becfb-238e-4439-aae0-6429756af345 Timestamp: 2026-07-27 12:49:01Z",
+    "incident_id": "INC-1-2026-07-27T18:19:02.2103453+05:30",
+    "created_at": "2026-07-27T18:19:02.2103453+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Send an interactive authorization request",
+        "risk": "Expiry of tokens and lack of recent activity can lead to access issues requiring regular user interaction for authentication purposes.",
+        "reason": "A new interactive authorization process will re-establish a valid session, ensuring that the user is authenticated with fresh credentials."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.75,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 4,
+        "role": "primary"
+      },
+      {
+        "event_id": 1022,
+        "count": 1,
+        "role": "secondary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The error indicates that a token is required for user interaction, but the provided code or refresh token has expired. This could be due to inactivity."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T18:19:00.6672004+05:30",
+    "created_at": "2026-07-27T18:19:00.6672004+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart LSO Service",
+        "risk": "Mostly safe as it attempts to restore normal operations without impacting user data or settings. However, the restart of services always needs careful handling because an improper service start might lead to unexpected behavior.",
+        "reason": "The reason for this action is that LSO Service helps in reducing disk I/O and speed up system performance by writing only when no other write operation occurs."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event ID 6062, which indicates that the 'LSO' (Last Write Optimization) service has been disabled on a Windows system."
+  },
+  {
+    "severity": "Error",
+    "original_message": "Miniport Microsoft Wi-Fi Direct Virtual Adapter #4, {95abe962-c84f-44d8-bd6d-f493e9d8d0ea}, had event Fatal error: The miniport has failed a power transition to operational power",
+    "incident_id": "INC-10317-2026-07-27T18:18:59.2355711+05:30",
+    "created_at": "2026-07-27T18:18:59.2355711+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart all network adapters",
+        "risk": "Temporarily suspending your connection to resolve potential driver conflicts that may cause this issue. Ensure it's safe for you not to have an active internet or wireless signal before proceeding.",
+        "reason": "This can help reset the adapter and possibly reinitialize its drivers, resolving any transient issues."
+      },
+      {
+        "action": "Update network driver",
+        "risk": "Potential compatibility problems with current hardware that might be resolved by updating to a newer or patched version of your Wi-Fi Direct Virtual Adapter's driver.",
+        "reason": "Driver updates often contain fixes for known issues, including those affecting power transitions."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-NDIS",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10317
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Microsoft-Windows-NDIS"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10317,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The Wi-Fi Direct Virtual Adapter #4 is experiencing issues during its power transitions, which can indicate hardware problems with the adapter or drivers."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "Reset and/or resume count do not match expected values after hibernate/resume.",
+    "incident_id": "INC-30-2026-07-27T18:18:58.8422655+05:30",
+    "created_at": "2026-07-27T18:18:58.8422655+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Verify integrity of system restore points before performing any hibernate/resume cycle",
+        "risk": "Data Loss Potential - Low Risk due diligence, but high risk for data loss without action",
+        "reason": ""
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "TPM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 30
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "TPM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 30,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event indicates a potential problem with the hibernation and resumption process, which could lead to data loss or corruption if left unaddressed."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: 88816ba6-90f7-4c08-8fb6-0d5b44852700 Correlation ID: 7a18f45a-57dc-41fd-b1e2-c07cb58895f6 Timestamp: 2026-07-27 12:38:48Z",
+    "incident_id": "INC-1-2026-07-27T18:08:49.2395812+05:30",
+    "created_at": "2026-07-27T18:08:49.2395812+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Send a new interactive Authorize request to the AAD service for this specific resource and application",
+        "risk": "Token Expiry Error (ErrorCode: 0xcaa20003)",
+        "reason": "An expired token was detected, leading to an inability to perform silent renewals."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.73,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 4,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The user's authorization code or refresh token has expired, requiring an interactive reauthorization process."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T18:08:48.0915951+05:30",
+    "created_at": "2026-07-27T18:08:48.0915951+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Run 'lsof -n -P' command",
+        "risk": "None",
+        "reason": ""
+      },
+      {
+        "action": "If a non-essential process is found to hold onto many LSOs, terminate the process (if safe)",
+        "risk": "Process termination may lead to service interruption if used in production environment without proper analysis.",
+        "reason": "Non-essential processes holding too many LSOS can indicate memory leakage that should be resolved."
+      },
+      {
+        "action": "Edit 'c:\temp\nginx.conf'",
+        "risk": "None",
+        "reason": ""
+      },
+      {
+        "action": "If nginx service is causing the issue, modify settings to limit LSO size (e.g., increasing lso_maxbytes value)",
+        "risk": "Incorrectly modified settings can cause unexpected behavior.",
+        "reason": "Nginx may be a contributing factor and needs adjustment of its shared object file storage parameters."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event with Event ID 6062 indicates a potential memory leak due to large Shared Objects List (LSO) growth. This can lead to system instability and should be addressed promptly."
+  },
+  {
+    "severity": "Error",
+    "original_message": "Faulting application name: svchost.exe_WbioSrvc, version: 10.0.26100.8737, time stamp: 0x8dd923d6\r\nFaulting module name: wbiosrvc.dll, version: 10.0.26100.8737, time stamp: 0x9b46b672\r\nException code: 0xc0000409\r\nFault offset: 0x0000000000061ec4\r\nFaulting process id: 0x2B30\r\nFaulting application start time: 0x1DD1DBDB862B9E2\r\nFaulting application path: C:\\WINDOWS\\system32\\svchost.exe\r\nFaulting module path: c:\\windows\\system32\\wbiosrvc.dll\r\nReport Id: 62d87eb7-d824-4045-9757-2651fa3ccae3\r\nFaulting package full name: \r\nFaulting package-relative application ID: ",
+    "incident_id": "INC-1000-2026-07-27T17:20:00.3387833+05:30",
+    "created_at": "2026-07-27T17:20:00.3387833+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Error1000_ApplicationCrash.ps1",
+    "steps": "View Steps",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart crashed application"
+      },
+      {
+        "action": "Collect crash dump logs"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Application Error",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1000
+    },
+    "confidence_score": 0.86,
+    "confidence_level": "High",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Application Error"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1000,
+        "count": 1,
+        "role": "primary"
+      },
+      {
+        "event_id": 7034,
+        "count": 1,
+        "role": "secondary"
+      },
+      {
+        "event_id": 1,
+        "count": 190,
+        "role": "secondary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{15C20B67-12E7-4BB6-92BB-7AFF07997402}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T17:09:23.0296366+05:30",
+    "created_at": "2026-07-27T17:09:23.0296366+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Run Component Services Administrative Tool",
+        "risk": "Limited Access and Security Risk - Affected User may not be able to run the required applications for their work tasks or duties due to restricted permissions inadvertently limiting functionality.",
+        "reason": "The affected user 'sandh' should have sufficient rights granted by default so that they can manage security permission settings using Component Services. Failure to do this might restrict legitimate use of COM Server application, hence impacting productivity."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.65,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 5,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The user 'sandh' does not have sufficient permissions to grant or modify Local Activation for a specific COM Server, which could potentially prevent legitimate use of this application."
+  },
+  {
+    "severity": "Error",
+    "original_message": ".NET Runtime version 4.0.30319.0 - There was a failure initializing profiling API attach infrastructure.  This process will not allow a profiler to attach.  HRESULT: 0x80004005.  Process ID (decimal): 11320.  Message ID: [0x2509].",
+    "incident_id": "INC-1022-2026-07-27T17:08:58.1670226+05:30",
+    "created_at": "2026-07-27T17:08:58.1670226+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart Microsoft Visual Studio",
+        "risk": "Risk of not being able to debug .NET applications efficiently",
+        "reason": "A common cause of this issue might be a misconfiguration within the profiling environment that can often be resolved by restarting development tools."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": ".NET Runtime",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1022
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        ".NET Runtime"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1022,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The event indicates that the .NET Runtime version 4.0 cannot be initialized due to a failure in setting up the profiling API attach infrastructure, which is essential for attaching performance analysis tools."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{8BC3F05E-D86B-11D0-A075-00C04FB68820}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-3339073691-4135924856-4065268501-2164694609-1359627765-2814589109-124664098). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T17:08:19.4573774+05:30",
+    "created_at": "2026-07-27T17:08:19.4573774+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Open Component Services administrative tool",
+        "risk": "Potential unauthorized access or execution of the COM Server due to incorrect security settings. If left unresolved, it may result in failed application operations and could be exploited by attackers.",
+        "reason": "The Event ID suggests a misconfiguration with permission settings for COM applications that might hinder normal operation."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event ID: 10016 indicates a warning about application permissions, specifically related to COM server applications not being granted Local Activation permission for certain components."
+  },
+  {
+    "severity": "Error",
+    "original_message": "The Universal Device Client Service service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 60000 milliseconds: Restart the service.",
+    "incident_id": "INC-7031-2026-07-27T16:42:08.9613190+05:30",
+    "created_at": "2026-07-27T16:42:08.9613190+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart",
+        "risk": "System Stability Uncertainty",
+        "reason": ""
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Service Control Manager",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 7031
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Service Control Manager"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 7031,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "Upon detection of Event ID: 7031, indicating that the Universal Device Client Service terminated unexpectedly and has done this once within a short period."
+  },
+  {
+    "severity": "Error",
+    "original_message": "Faulting application name: UDClientService.exe, version: 26.5.0.21, time stamp: 0x6a04339e\r\nFaulting module name: UDCWindows.Shared.Native.dll, version: 26.5.0.21, time stamp: 0x6a0431d6\r\nException code: 0xc0000005\r\nFault offset: 0x0000000000008822\r\nFaulting process id: 0x13C0\r\nFaulting application start time: 0x1DD15124E36602C\r\nFaulting application path: C:\\WINDOWS\\System32\\drivers\\Lenovo\\udc\\Service\\UDClientService.exe\r\nFaulting module path: C:\\WINDOWS\\System32\\drivers\\Lenovo\\udc\\Service\\UDCWindows.Shared.Native.dll\r\nReport Id: abe1982c-b834-4dcb-9650-36f361087842\r\nFaulting package full name: \r\nFaulting package-relative application ID: ",
+    "incident_id": "INC-1000-2026-07-27T16:42:00.8147477+05:30",
+    "created_at": "2026-07-27T16:42:00.8147477+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Error1000_ApplicationCrash.ps1",
+    "steps": "View Steps",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart crashed application"
+      },
+      {
+        "action": "Collect crash dump logs"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Application Error",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1000
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Application Error"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1000,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: 819c4d49-7aea-43e1-9657-244d0f5b2c00 Correlation ID: 55e5bec1-3f76-40d4-b578-9061868bb56a Timestamp: 2026-07-27 10:46:35Z",
+    "incident_id": "INC-1-2026-07-27T16:16:35.8086227+05:30",
+    "created_at": "2026-07-27T16:16:35.8086227+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Initiate Interactive Authentication",
+        "risk": "Authentication failure risk mitigated as it ensures the user is present and grants permission for token access explicitly.",
+        "reason": ""
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.82,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 10,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "This error indicates that the user's authorization code or refresh token has expired due to inactivity. To resolve this, we need a new interactive authentication flow."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T15:36:20.4380107+05:30",
+    "created_at": "2026-07-27T15:36:20.4380107+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Verify the digital signature of critical system files and applications using 'signtool' command for any expired signatures that might be causing issues related to LSO events.",
+        "risk": "Compromised security",
+        "reason": "'An invalid or missing certificate can cause a Local Security Authority log event, potentially indicating tampering with the system software."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.71,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 27,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "LSO (Local Security Authority log) events, particularly event IDs related to the security subsystem such as Event ID 6062 indicating an issue with securing certificates or code integrity in Windows."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: fd25e721-9add-46d5-bff1-282c50dd2900 Correlation ID: 6ae5f85e-6a71-4c8f-85be-615ade04d866 Timestamp: 2026-07-27 10:03:18Z",
+    "incident_id": "INC-1-2026-07-27T15:33:30.3686274+05:30",
+    "created_at": "2026-07-27T15:33:30.3686274+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Initiate new interactive Authorization Request",
+        "risk": "Token Expiration Issue - User Interaction Required",
+        "reason": "The token has expired and a new interaction is needed to securely resume authentication."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.7,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 2,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The error indicates that the AADSTS70008 code has expired due to inactivity, and thus an interactive authorization request needs to be initiated for this user."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T15:33:26.4919034+05:30",
+    "created_at": "2026-07-27T15:33:26.4919034+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Review current file system index settings",
+        "risk": "Inefficient Indexing leading to frequent LSO access",
+        "reason": "'Lso' events can be triggered by inefficient indexing, which may lead to performance degradation."
+      },
+      {
+        "action": "Encrypt sensitive data before storing locally if not already done",
+        "risk": "Security Risk due to potential unencrypted local storage of sensitive information",
+        "reason": "'Lso' events might indicate that sensitive files are stored without encryption, posing a security risk."
+      },
+      {
+        "action": "Implement file indexing optimizations and best practices",
+        "risk": "Reduced Performance due to Inefficient Indexing or Security Risk if encrypted data is not being indexed efficiently",
+        "reason": "'Optimizing index settings can help reduce 'Lso' events, which improves performance. If encryption-incompatible with indexing needs are in place for sensitive files, ensure the security risk mitigation strategies."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The 'Lso' event indicates that the system is frequently accessing local storage, which can be a sign of inefficient indexing or possible security risks if sensitive data are being stored unencrypted. Remediation may involve reviewing and optimizing how files are indexed."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: fd25e721-9add-46d5-bff1-282c50dd2900 Correlation ID: 6ae5f85e-6a71-4c8f-85be-615ade04d866 Timestamp: 2026-07-27 10:03:18Z",
+    "incident_id": "INC-1-2026-07-27T15:33:19.2067955+05:30",
+    "created_at": "2026-07-27T15:33:19.2067955+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Reissue an interactive authorization request for this specific user and resource",
+        "risk": "Potential unauthorized access if token renewal fails or isn't handled properly",
+        "reason": "The provided code has expired due to inactivity as per the error message from Azure AD."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.79,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 8,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The user needs to reauthorize because the provided code has expired due to inactivity. This is a security measure implemented by Azure AD."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T15:08:52.3314385+05:30",
+    "created_at": "2026-07-27T15:08:52.3314385+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Run System File Checker",
+        "risk": "Modified/Corrupted Windows Files",
+        "reason": "To identify and restore the original versions of any affected critical system components."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.66,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 8,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event Log recorded a warning indicating that the System File Checker (LSo) detected potentially corrupted or altered files, which might compromise system integrity."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: c74f0c96-f94c-436f-94f9-80a43f902200 Correlation ID: ab1e497f-82a1-4ff4-a6be-6d54a5ae9686 Timestamp: 2026-07-27 09:24:26Z",
+    "incident_id": "INC-1-2026-07-27T14:54:26.9118114+05:30",
+    "created_at": "2026-07-27T14:54:26.9118114+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Interact with the application flow by manually initiating an interactive authentication request",
+        "risk": "Security Risk Level: Medium-High - A compromised token can lead to unauthorized access, but since this is a user interaction error and not directly indicative of malicious activity.",
+        "reason": "User must interact with the application flow due to expired tokens or codes that cannot be renewed silently"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.82,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 10,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "An error occurred during silent token acquisition, likely because the authorization code or refresh token had expired due to inactivity. The user is prompted for interaction."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T12:24:39.2292500+05:30",
+    "created_at": "2026-07-27T12:24:39.2292500+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Increase the size of the Windows System Log and Application log",
+        "risk": "Potential loss or overwriting of critical system logs",
+        "reason": ""
+      },
+      {
+        "action": "Implement a routine to regularly clear unneeded information from Event Viewer before reaching maximum capacity.",
+        "risk": "Medium",
+        "reason": "To avoid triggering the 'Lso' event and ensure that important events are logged."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.7,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 43,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event Log is full, which can prevent new events from being written."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: e04cbb33-6714-4938-817f-43eab66e3b00 Correlation ID: fb3bf42b-92fd-46da-92e8-dbb45a0e3e27 Timestamp: 2026-07-27 06:54:21Z",
+    "incident_id": "INC-1-2026-07-27T12:24:22.6438662+05:30",
+    "created_at": "2026-07-27T12:24:22.6438662+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Send an interactive login prompt using Windows Credential Manager",
+        "risk": "Inactive account risk leading to loss of access without proper authentication measures in place",
+        "reason": "To ensure that all changes, especially those involving credentials and tokens for services like AADSTS70008 error handling, are done securely through an interactive login prompt where the user is actively providing their credential information."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.82,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 12,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The user's authorization code or refresh token has expired due to inactivity. This necessitates obtaining a new interactive request for the affected user and resource."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T12:20:34.9824793+05:30",
+    "created_at": "2026-07-27T12:20:34.9824793+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Monitor LSO Process",
+        "risk": "None expected as this routine event does not present any immediate risks or symptoms of deeper issues in the Windows environment.",
+        "reason": ""
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.62,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 3,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event log indicates that the 'LSO' (Large System Objects) cache cleanup process has been initiated, which is a standard and safe operation for maintaining system performance."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: f8bc70b7-6adc-4a81-a9bf-25c39c651300 Correlation ID: 051935de-dbd8-4ba0-8a6d-b3d2555bf6db Timestamp: 2026-07-27 06:32:50Z",
+    "incident_id": "INC-1-2026-07-27T12:02:51.4500731+05:30",
+    "created_at": "2026-07-27T12:02:51.4500731+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Prompt an interactive authentication flow",
+        "risk": "Session hijacking and unauthorized access are potential risks if silent acquisition continues without proper validation or session management protocols in place. This process also helps ensure that the user is aware of ongoing sessions.",
+        "reason": "To renew an expired token, a new interactive flow must be initiated to confirm it's still legitimate and secure."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.82,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 12,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The AADSTS error indicates that the authorization code or refresh token has expired due to inactivity. This suggests the need for user interaction."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The Open procedure for service \".NETFramework\" in DLL \"C:\\WINDOWS\\system32\\mscoree.dll\" failed with error code Access is denied.. Performance data for this service will not be available.",
+    "incident_id": "INC-1008-2026-07-27T12:00:24.4781338+05:30",
+    "created_at": "2026-07-27T12:00:24.4781338+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Run Process Monitor",
+        "risk": "Medium risk, as it could indicate a permission issue or misconfiguration that affects application performance data but doesn\u2019t necessarily compromise security",
+        "reason": "Monitoring real-time system activities to identify which processes are attempting access and under what circumstances the error occurs can help pinpoint where permissions need to be adjusted."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-Perflib",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1008
+    },
+    "confidence_score": 0.65,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-Perflib"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1008,
+        "count": 4,
+        "role": "primary"
+      },
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "secondary"
+      }
+    ],
+    "llm_explanation": "The system reports a warning indicating that the Open procedure call, which should allow accessing methods within mscoree.dll necessary to load managed assemblies into memory and prepare them for execution by unmanaged code in Windows Core App Framework (CoreCLR), has failed due to an 'Access is denied' error."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: b5b8758f-213f-47a6-961b-35466b772400 Correlation ID: 0f79f7ec-f391-4b6c-94b3-22b028f37462 Timestamp: 2026-07-27 06:25:48Z",
+    "incident_id": "INC-1-2026-07-27T11:55:52.4771294+05:30",
+    "created_at": "2026-07-27T11:55:52.4771294+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Redirect user to initiate an interactive OAuth request",
+        "risk": "Security - The risk here involves preventing potential unauthorized access that might occur if expired tokens were used unknowingly by users or scripts. By redirecting the user, we ensure they are actively engaged in a secure authentication process.",
+        "reason": "To obtain fresh and valid authorization codes/refresh tokens after ensuring it's safe to do so."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.79,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 8,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The user's authorization code or refresh token has expired due to inactivity, which is causing the error when attempting a silent authentication flow."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{15C20B67-12E7-4BB6-92BB-7AFF07997402}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container 5319275A.WhatsAppDesktop_2.2628.101.0_x64__cv1g1gvanyjgm SID (Unavailable). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T11:55:51.3193940+05:30",
+    "created_at": "2026-07-27T11:55:51.3193940+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Open Component Services administrative tool",
+        "risk": "Lack of permission can cause functionality issues or errors if the service needs local activation",
+        "reason": "To modify and grant necessary permissions for Local Activation"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event ID: 10016 indicates a warning wherein Local Activation Permission for a COM Server application is not granted to an individual user."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: b5b8758f-213f-47a6-961b-35466b772400 Correlation ID: 0f79f7ec-f391-4b6c-94b3-22b028f37462 Timestamp: 2026-07-27 06:25:48Z",
+    "incident_id": "INC-1-2026-07-27T11:55:49.3979220+05:30",
+    "created_at": "2026-07-27T11:55:49.3979220+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Redirect the user to sign-in page for authentication",
+        "risk": "Data breach risk if sensitive tokens are exposed during redirection",
+        "reason": "The authorization code or refresh token has expired, prompting a new interactive request."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.73,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 4,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The user encountered an error while trying to acquire a token silently, as the authorization code or refresh token had expired due to inactivity."
+  },
+  {
+    "severity": "Error",
+    "original_message": "Service Failure: Windows Search service stopped unexpectedly.",
+    "incident_id": "INC-513-2026-07-27T11:53:56.1519864+05:30",
+    "created_at": "2026-07-27T11:53:56.1519864+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Restart_WSearch_Service.ps1",
+    "steps": "View Steps",
+    "status": "Approved",
+    "approved_time": "2026-07-27 19:22:24",
+    "suggested_actions": [
+      {
+        "action": "Restart Windows Search Service"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "MCP Firmware",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 513
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "MCP Firmware"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 513,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The filter host process 23368 did not respond and is being forcibly terminated. \n",
+    "incident_id": "INC-10024-2026-07-27T11:53:05.1458464+05:30",
+    "created_at": "2026-07-27T11:53:05.1458464+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart",
+        "risk": "None",
+        "reason": "This is generally safe and often resolves minor hiccups without further action."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-Search",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10024
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-Search"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10024,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event indicates a potential issue with the application or service identified by the Filter Host Process, which may cause instability."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{8BC3F05E-D86B-11D0-A075-00C04FB68820}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-1624134345-3232353818-1091423423-4126567749-4216627918-2275944851-3438137959). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T11:52:37.5710498+05:30",
+    "created_at": "2026-07-27T11:52:37.5710498+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Use the Component Services administrative tool",
+        "risk": "COM Server Application Permission Error",
+        "reason": ""
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "This event indicates a warning that Local Activation permissions for COM are not granted to an application with specific GUIDs, which may prevent it from functioning properly."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T11:51:51.2830177+05:30",
+    "created_at": "2026-07-27T11:51:51.2830177+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Use the scrub-registry command available in most Windows recovery tools or Microsoft Endpoint Manager Admin Center to remove LSO entries from all user profiles on your network devices, then ensure no further sensitive information is stored under these keys before deploying it.",
+        "risk": "Reduces risk of exposure and unauthorized access",
+        "reason": "'LSO' contains Local Security Authority data which could potentially provide an attacker with privileged system rights if exposed."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The 'LSO' registry key contains sensitive information. It is recommended to cleanse this data for security purposes."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T11:51:32.7609636+05:30",
+    "created_at": "2026-07-27T11:51:32.7609636+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Enable system protection",
+        "risk": "Data loss or unauthorized changes could occur without sufficient protections in place",
+        "reason": "To safeguard the integrity of user's files, enable System Protection."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event with Event ID 6062 indicates that the System Protection feature is disabled and it's advised to enable this protection for data safety."
+  },
+  {
+    "severity": "Error",
+    "original_message": "Disk space critically low. Automatic cleanup required.",
+    "incident_id": "INC-2013-2026-07-27T11:50:57.7806452+05:30",
+    "created_at": "2026-07-27T11:50:57.7806452+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "Error2013_DiskCleanup.ps1",
+    "steps": "View Steps",
+    "status": "Approved",
+    "approved_time": "2026-07-27 19:24:36",
+    "suggested_actions": [
+      {
+        "action": "Clean temporary files and recover disk space"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Disk Cleanup",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 2013
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Disk Cleanup"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 2013,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    }
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T11:46:06.5163526+05:30",
+    "created_at": "2026-07-27T11:46:06.5163526+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Check disk space",
+        "risk": "Negligible to Moderate - Adequate free disk space is crucial for the proper functioning of Windows and its logs. Insufficient space may lead to issues with logging.",
+        "reason": "In order to ensure that system operations, including event logging, can proceed without hindrance."
+      },
+      {
+        "action": "Verify Event Log service status",
+        "risk": "Negligible - The Windows Event Collector Service is responsible for consolidating logs from various sources. A failure in this could potentially affect the stability of log events.",
+        "reason": "To ensure that event logging processes continue to function as expected."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event ID (6062) indicates a low severity warning that the System Log and Events file were last opened. This can be indicative of potential issues with event logging or system stability."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-27T11:45:44.3600705+05:30",
+    "created_at": "2026-07-27T11:45:44.3600705+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Run Disk Cleanup",
+        "risk": "Potential data corruption",
+        "reason": ""
+      },
+      {
+        "action": "Check Drive Health using Check Disk utility (chkdsk)",
+        "risk": "Medium",
+        "reason": "To ensure the integrity of files and detect any errors due to bad sectors or filesystem inconsistencies."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The Event Log entry (Event ID: 6062) signifies a warning related to the system's cache directory, which could indicate potential disk issues or performance concerns."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: 52fa324c-e5eb-4277-8568-77ca0a9a3c00 Correlation ID: 15acc751-f3da-4627-a49c-156d7db44cc2 Timestamp: 2026-07-27 06:14:31Z",
+    "incident_id": "INC-1-2026-07-27T11:44:33.1126259+05:30",
+    "created_at": "2026-07-27T11:44:33.1126259+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Initiate a new interactive authentication request for this user and resource",
+        "risk": "Potential unauthorized access risk if tokens are not renewed promptly",
+        "reason": "The authorization code or refresh token has expired, necessitating immediate reauthorization to maintain secure session continuity"
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.82,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 8,
+        "role": "primary"
+      },
+      {
+        "event_id": 2013,
+        "count": 1,
+        "role": "secondary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "User is encountering an error due to the expiration of authorization code or refresh token."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID \r\n{00000000-0000-0000-0000-000000000000}\r\n and APPID \r\n{15C20B67-12E7-4BB6-92BB-7AFF07997402}\r\n to the user LAPTOP-VLVVPTRO\\sandh SID (S-1-5-21-4104535999-3182030247-1554516868-1001) from address LocalHost (Using LRPC) running in the application container MSTeams_26183.1903.4892.4448_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool.",
+    "incident_id": "INC-10016-2026-07-27T11:39:23.4048395+05:30",
+    "created_at": "2026-07-27T11:39:23.4048395+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Access the Component Services administrative tool",
+        "risk": "If left unaddressed, it can cause disruptions in user collaboration and communication through Microsoft Teams. The application may not function properly or access shared resources as intended.\nRisk level: High\nReason for action:\nTo modify security permissions related to the COM server's Local Activation rights which appear misconfigured.",
+        "reason": ""
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-DistributedCOM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10016
+    },
+    "confidence_score": 0.65,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-DistributedCOM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10016,
+        "count": 6,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event ID:10016 indicates that there is an issue with a COM server application not being able to access Local Activation permissions for certain users, which could lead to functionality problems within Microsoft Teams."
+  },
+  {
+    "severity": "Error",
+    "original_message": "User Interaction Required while trying to get a token silently. ErrorCode: 0xcaa20003, Error: AADSTS70008: The provided authorization code or refresh token has expired due to inactivity. Send a new interactive authorization request for this user and resource. Trace ID: 5095ea26-8de9-4b9c-a08a-607b5e1a1d00 Correlation ID: 303e981e-7f74-4c20-875f-b70d31871159 Timestamp: 2026-07-27 06:08:35Z",
+    "incident_id": "INC-1-2026-07-27T11:38:36.1265780+05:30",
+    "created_at": "2026-07-27T11:38:36.1265780+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Send a new interactive authorization request for this user and resource",
+        "risk": "User's credentials are potentially compromised",
+        "reason": "'AADSTS70008: The provided authorization code or refresh token has expired due to inactivity.' indicates that the user might have forgotten their authentication details, prompting a reauthentication process for security."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Universal Print",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 1
+    },
+    "confidence_score": 0.82,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Universal Print"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 1,
+        "count": 12,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The user is being prompted to reauthenticate because the authorization code or refresh token has expired due to inactivity."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com,0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)",
+    "incident_id": "INC-134-2026-07-27T11:38:08.1045079+05:30",
+    "created_at": "2026-07-27T11:38:08.1045079+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Test the local network connectivity and ensure it is not blocked by any firewall or router settings.",
+        "risk": "Possible misconfiguration of networking hardware resulting in intermittent access issues",
+        "reason": "'time.windows.com,0x9' being unreachable could be due to an external blocking device within the local network path."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-Time-Service",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 134
+    },
+    "confidence_score": 0.64,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Microsoft-Windows-Time-Service"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 134,
+        "count": 1,
+        "role": "primary"
+      },
+      {
+        "event_id": 10016,
+        "count": 2,
+        "role": "secondary"
+      },
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "secondary"
+      }
+    ],
+    "llm_explanation": "The Event ID 134 indicates that an attempt to synchronize time using 'time.windows.com,0x9' failed due to a DNS resolution error."
+  },
+  {
+    "severity": "Error",
+    "original_message": "Miniport Microsoft Wi-Fi Direct Virtual Adapter #4, {95abe962-c84f-44d8-bd6d-f493e9d8d0ea}, had event Fatal error: The miniport has failed a power transition to operational power",
+    "incident_id": "INC-10317-2026-07-27T11:38:08.0151527+05:30",
+    "created_at": "2026-07-27T11:38:08.0151527+05:30",
+    "priority_status": "High Priority",
+    "action_generation": true,
+    "message": "Automated remediation available.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Restart the Windows Subsystem for Linux: Wicd",
+        "risk": "Loss of connectivity or network services interruption if critical tasks rely on this service and are not handled appropriately before it restarts. It could also lead to temporary unavailability during maintenance.",
+        "reason": "A common remediation for issues related to virtual Wi-Fi adapters involves restarting the Wicd process, which can resolve transient errors within the system."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Microsoft-Windows-NDIS",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 10317
+    },
+    "confidence_score": 0.8,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Error",
+      "affected_components": [
+        "Microsoft-Windows-NDIS"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 10317,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "human_in_the_loop": true,
+    "admin_feedback": {
+      "status": "Pending",
+      "approved_actions": [],
+      "rejected_actions": [],
+      "comments": ""
+    },
+    "llm_explanation": "The Wi-Fi Direct Virtual Adapter encountered an issue while attempting to switch from dormant mode to active operation."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "Reset and/or resume count do not match expected values after hibernate/resume.",
+    "incident_id": "INC-30-2026-07-27T11:38:07.6735574+05:30",
+    "created_at": "2026-07-27T11:38:07.6735574+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Initiate diagnostics on hibernate/resume functionality",
+        "risk": "Data corruption risk due to inconsistent session states",
+        "reason": "To identify and rectify the underlying cause of mismatched reset counts, ensuring that all system processes are properly terminated and resumed."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "TPM",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 30
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "TPM"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 30,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The warning event indicates that the system may be experiencing issues with hibernation or resuming from a hibernated state, which could potentially lead to data loss if critical processes are terminated unexpectedly."
+  },
+  {
+    "severity": "Warning",
+    "original_message": "6062 - Lso was triggered",
+    "incident_id": "INC-6062-2026-07-25T19:36:57.1328414+05:30",
+    "created_at": "2026-07-25T19:36:57.1328414+05:30",
+    "priority_status": "Low Priority",
+    "action_generation": false,
+    "message": "Stored for monitoring only.",
+    "remediation_script": "",
+    "steps": "SLM Recommendation",
+    "status": "Pending",
+    "approved_time": "-",
+    "suggested_actions": [
+      {
+        "action": "Run Performance Monitor",
+        "risk": "Potential decrease in application or service response times due to high Lso file generation and possible insufficient physical RAM",
+        "reason": "To identify processes consuming excessive amounts of memory which might be generating large LOB files, thus contributing to increased system latency."
+      }
+    ],
+    "rca_type": "SLM-Based (Hybrid Heuristic)",
+    "root_cause": {
+      "category": "Netwtw10",
+      "reason_code": "Fallback RCA Generated",
+      "primary_event_id": 6062
+    },
+    "confidence_score": 0.6,
+    "confidence_level": "Medium",
+    "impact_summary": {
+      "severity": "Warning",
+      "affected_components": [
+        "Netwtw10"
+      ]
+    },
+    "supporting_events": [
+      {
+        "event_id": 6062,
+        "count": 1,
+        "role": "primary"
+      }
+    ],
+    "llm_explanation": "The event indicates a potential issue with the system's performance, specifically related to memory usage."
+  }
+]

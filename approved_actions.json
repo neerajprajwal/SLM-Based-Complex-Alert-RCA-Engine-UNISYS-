@@ -1,0 +1,10 @@
+﻿{
+    "Error2013_DiskCleanup.ps1":  {
+                                      "status":  "approved",
+                                      "approved_on":  "2026-07-27 19:24:36"
+                                  },
+    "Restart_WSearch_Service.ps1":  {
+                                        "status":  "approved",
+                                        "approved_on":  "2026-07-27 19:22:24"
+                                    }
+}
